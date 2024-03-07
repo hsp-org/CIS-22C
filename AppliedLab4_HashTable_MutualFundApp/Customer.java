@@ -1,7 +1,7 @@
 /**
  * Customer.java
- * @author Your name
- * @author Partner's name
+ * @author Hari Prakash
+ * @author Hari Prakash
  * CIS 22C, Applied Lab 4
  */
 import java.text.DecimalFormat;

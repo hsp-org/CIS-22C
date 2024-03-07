@@ -1,7 +1,7 @@
 /**
  * BST.java
- * @author Your name
- * @author Partner's name
+ * @author Hari Prakash
+ * @author Hari Prakash
  * CIS 22C Lab 12
  */
 import java.util.Comparator;
