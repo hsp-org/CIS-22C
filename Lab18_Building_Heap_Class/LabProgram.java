@@ -15,7 +15,6 @@ import java.util.ArrayList;
 class IntComparator implements Comparator<Integer> {
 	@Override
     public int compare(Integer o1, Integer o2) {
-        // For a max heap, we want the comparator to prioritize larger values
         return o1.compareTo(o2);
     }
 }
@@ -26,8 +25,6 @@ class IntComparator implements Comparator<Integer> {
 class StrComparator implements Comparator<String> {
 	@Override
     public int compare(String o1, String o2) {
-        // For a max heap, strings are compared based on their natural ordering
-        // This will prioritize strings higher in lexicographic order
         return o1.compareTo(o2);
     }
 }
