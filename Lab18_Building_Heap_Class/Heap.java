@@ -53,17 +53,17 @@ public class Heap<T> {
         int right = getRight(index);
         int largest = index;
 
-        // Check existence of left child and if it's greater than current node
+        // Check left child is there and if it's greater than current node
         if (left <= heapSize && cmp.compare(heap.get(left), heap.get(index)) > 0) {
             largest = left;
         }
 
-        // Check existence of right child and if it's greater than current largest node
+        // Check right child and if it's greater than current largest node
         if (right <= heapSize && cmp.compare(heap.get(right), heap.get(largest)) > 0) {
             largest = right;
         }
 
-        // Swap and continue heapifying if needed
+        // Swap and continue heapifying
         if (largest != index) {
             T swap = heap.get(index);
             heap.set(index, heap.get(largest));
