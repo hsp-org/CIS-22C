@@ -248,8 +248,8 @@ public class Heap<T> {
         
         ArrayList<T> sortedList = new ArrayList<>();
         while (heapSize > 0) {
-            max = heap.get(1);
-            last = heap.get(heapSize);
+            T max = heap.get(1);
+            T last = heap.get(heapSize);
             heap.set(1, last);
             heapSize--; 
             if (heapSize > 0) {
